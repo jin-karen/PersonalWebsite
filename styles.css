@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -42,93 +46,6 @@ nav a:visited{
 
 nav a:hover {
     color: #D9B49E;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-.home{
-    height: 920px;
-    background-image: url(img/table_laptop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.home h1{
-    color: white; 
-    text-align: center;
-    position: relative;
-    top: 350px;
-    font-size: 775%; /**125px**/
-    margin: 0;
-    /**
-    font-family: Brush Script MT, Brush Script Std, cursive;
-    **/
-}    
-
-.content{
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}    
-
-.content h2{
-    text-align: center;
-    width: 100%;
-    color: #CDD5C6;
-    background-color: #759C89;
-    margin: 0;
-    padding: 20px 0;
-}
-
-.content-items{
-    flex: 1 1 auto;
-}
-
-.content p{
-    text-align: center;
-    overflow-wrap: break-word;
-}
-
-.about{
-    display: flex;
-    gap: 20px;
-    margin: 40px;
-}
-
-.about-image {
-    flex: 1 1 0;
-}
-
-.about-text {
-    flex: 2 1 0;
-}
-
-.about img{
-    width: 55%;
-    margin: auto auto;
-    display: block;
-}
-
-.projects a:link {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-.projects a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-.projects a:hover {
-    color: #D9B49E;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-.projects a:active {
-    color: #65979C;
     background-color: transparent;
     text-decoration: none;
 }
