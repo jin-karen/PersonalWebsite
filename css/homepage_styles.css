@@ -1,6 +1,6 @@
 .home{
     height: 920px;
-    background-image: url(img/table_laptop.jpg);
+    background-image: url(../img/table_laptop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
