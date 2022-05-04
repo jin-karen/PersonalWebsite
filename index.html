@@ -3,11 +3,11 @@
     <head>
         <title>Karen Jin's Personal Website</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="homepage_styles.css">
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <script>function refresh(){location.reload();}</script>
     </head>
     <body>
-        <div class="top"></div>
         <header>
             <a class="logo" href="index.html" title="Karen Jin">
                 <img src="img/kj_icon.png" alt="Brand Icon">
@@ -25,41 +25,97 @@
             <h1>Karen Jin</h1>
         </div>
         <div class="content">
-        <div id="about" class="about">
+        <div id="about" class="section">
             <h2>About Me</h2>
-            <div class="about-image">
-                
-                <img src="img/about_me.jpg" alt="Photo of Karen Jin">
-                <!--<p>Some Text</p>-->
-            </div>
-            <div class="about-text">
-                <p>Some Text</p>
-                <p>
-                My name is Karen Jin and I'm a recent graduate of Boston University with a Bachelor's 
-                degree in Hospitality Administration. 
-                </p>
+            <div class= "about">
+                <img src="img/about_me.jpg" alt="Karen Jin Photo">
+                    <!--<div class="about-image"></div>-->
+                <div class="about-text">
+                    <p>
+                        Hello! My name is Karen Jin and I'm a first-generation college graduate from Boston University, 
+                        with a Bachelors of Science in Hospitality Administration. I delight in the ability to 
+                        create personalized and memorable experiences for myself and others. Through practical work 
+                        and classroom learning, I was able to develop my communication skills, global perspective, 
+                        problem solving capacities, and knowledge in a dynamic industry.
+                    </p>
+                    <p>
+                        I discovered my love for coding when taking a Python course after graduating. My passion 
+                        and dedication has since flourished while applying my knowledge to projects as I learned 
+                        HTML, CSS, and currently Javascript. I aspire to integrate my hospitality background with 
+                        my continuing programming journey to exceed expectations for both internal and external 
+                        stakeholders as a software engineer. 
+                    </p> 
+                    <p>
+                    In my free time, I also enjoy hobbies such as baking, drawing, playing video games, exploring 
+                        new places, and trying new foods. 
+                    </p>
+                </div>
             </div>
         </div>
-        <div id="projects" class="projects">
+        <div id="projects" class="section">
             <h2>Projects</h2>
-            <div class="project-text">
-                <p>Some Text</p>
-            </div>
-            <div class="project-image">
-                <p>Some Text</p>
-            </div>
+            <div class="projects">
+                <div class="projects-item">
+                    <img src="img/hangman_project.png" alt="Hangman Photo"><br>
+                    <h3>Hangman Game  <img src="img/github_1.png" alt="GitHub Icon"></h3>
+                    <p>
+                        A classic children’s game, to be played by one or two players, with the 
+                        goal of uncovering a word by guessing letters within a certain number of 
+                        tries. This game is recreated with Python, to be run in a shell, and it 
+                        utilizes important concepts such as Object-Oriented Programming. 
+                    </p><br>
+                    <button title="Hangman Project" onclick="document.location='shoop_opinion_piece.html'">View Project</button>
+                </div>
+                <div class="projects-item">
+                    <!--
+                   -->
+                    <a href="shoop_opinion_piece.html" title="Shoop Project"><img src="img/shoop_project.png" alt="Sheep Photo"></a><br>
+                    <h3>Shoop Article <img src="img/kj_icon.png" alt="Brand Icon"></h3>
+                    <p>
+                        A personal, satirical opinion piece that reflects why the singular tense of 
+                        sheep should be shoop, complete with enticing visuals and a supporting table. 
+                        This project was created to practice and illustrate knowledge of HTML and CSS 
+                        elements in a lighthearted and entertaining way. 
+                    </p><br>
+                    <button title="Shoop Project" onclick="document.location='shoop_opinion_piece.html'">View Project</button>
+                </div>
+                <div class="projects-item">
+                    <img src="img/weather_project.png" alt="Weather Photo"><br>
+                    <h3>Weather Report  <img src="img/github_1.png" alt="GitHub Icon"></h3>
+                    <p>
+                        An informational reporting script that interacts with the Open Weather App API 
+                        to provide current weather data and daily forecasts based on user-inputted locations 
+                        (using the API’s geocoding). This Python Script can be handy for everyday usage or to 
+                        aid with planning for upcoming trips.  
+                    </p><br>
+                    <button title="Weather Project" onclick="document.location='shoop_opinion_piece.html'">View Project</button>
+                </div>
+            </div>    
         </div>
-        <div id="contact" class="contact">
-            <h2>Contact Info</h2>
-            <div class="contact1">
-                <p>Some Text</p>
+        <div id="contact" class="section">
+            <br>
+            <p>
+                Please feel free to reach out to me with any questions or to connect! <br>
+                I can best be reached via email at <a href="mailto:karenjin22@gmail.com">karenjin22@gmail.com</a>.
+            </p>    
+            <div class="contact">
+                <div class="contact-item">
+                        <a href="mailto:karenjin22@gmail.com" title="Email">
+                            <img src="img/email.png" alt="Email Icon">
+                        </a><br>
+                </div>
+                <div class="contact-item">
+                        <a href="https://www.linkedin.com/in/karen-jin/" title="LinkedIn" target="blank">
+                            <img src="img/linkedin.png" alt="LinkedIn Icon">
+                        </a><br>
+                </div>
+                <div class="contact-item">
+                        <a href="https://github.com/jin-karen" title="GitHub" target="blank">
+                            <img src="img/github.png" alt="Github Icon">
+                        </a><br>
+                </div>    
             </div>
-            <div class="contact2">
-                <p>Some Text</p>
-            </div>
-            <div class="contact3">
-                <p>Some Text</p>
-            </div>
+            <div class="footer">© 2022 Karen Jin</div>
         </div>
         </div>
     </body>
