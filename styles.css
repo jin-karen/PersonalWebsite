@@ -44,7 +44,7 @@ nav a:hover {
 
 .home{
     height: 920px;
-    background-image: url(img/table_laptop.jpg);
+    background-image: url(img/table_laptop2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -62,39 +62,54 @@ nav a:hover {
 
 .content{
     margin: 50px;
+}    
+/**
     display: flex;
     flex-direction: column;
     gap: 40px;
-}    
-
 .about, .projects, .contact{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-}
+    gap: 20px;   
+} 
+**/
+
+
+
+
 
 .content h2{
     text-align: center;
     width: 100%;
-    flex: 2 1 auto;
     color: #CDD5C6;
     background-color: #759C89;
     margin: 0;
     padding: 20px 0;
 }
-
+/**
+flex: 2 1 auto;
 .content div{
     flex: 1 1 auto;
+}    
+.about img{
+    width: 100%
 }
+**/
+
 
 .content p{
     text-align: center;
+}
+
+.about p{
     overflow-wrap: break-word;
+    display: inline-block;
+    margin-right: 150px;
 }
 
 .about img{
     width: 300px;
     height: 400px;
-    display: block;
-    margin: auto auto;
+    margin: 10px 150px;
+    float: left;
 }
