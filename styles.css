@@ -1,0 +1,65 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #0A2C33;
+}
+
+header{
+    background-color: #0C3740  /**#006269#257d85**/;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+nav{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    padding: 20px 0;
+}
+
+nav li{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    color: #fdffee;
+    width: 80px;
+    /**border: 1px solid #d5b23f;
+    border-radius: 10px;**/
+    padding: 10px;
+    margin: 10px;
+}
+
+nav li:hover{
+    border-radius: 10px;
+    background-color: #d5b23f /**#0F424D**/;
+    color: #082126;
+}
+
+nav a:link {
+    color: #fdffee;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: #fdffee;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #082126;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+nav a:active {
+    color: #1B798C;
+    background-color: transparent;
+    text-decoration: none;
+}
