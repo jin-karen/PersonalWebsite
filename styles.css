@@ -1,0 +1,115 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #EFDEC3;
+}
+
+header{
+    background-color: rgb(240, 214, 187, 0.9)  /**#F0D6BB**/;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 20;
+}
+
+.logo img{
+    background-color: transparent;
+    position: fixed;
+    top: 22px;
+    width: 5%;
+}
+
+nav{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    padding: 20px 0;
+}
+
+nav li{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    color: #fdffee;
+    width: 80px;
+    /**border: 1px solid #d5b23f;
+    border-radius: 10px;**/
+    padding: 10px;
+    margin: 10px;
+    z-index: 2;
+}
+
+nav li:hover{
+    border-radius: 10px;
+    background-color: #D9B49E /**#0F424D**/;
+    color: #A38A6F;
+}
+
+nav a:link {
+    color: #fdffee;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: #fdffee;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #A38A6F;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+nav a:active {
+    color: #1B798C;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.content {
+    position: relative;
+    bottom: 10px;
+}
+
+.home{
+    height: 830px;
+    background-image: url(https://images.pexels.com/photos/185343/pexels-photo-185343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /**830px no repeat/size url( https://images.unsplash.com/photo-1594992029224-c7948d15c175?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)**/
+}
+
+.home h3 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 150px;
+    color: white; /**#6C9694**/
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+
+.about {
+    background-color: #9EB599;
+    color: #E2F0D3;
+    margin: 30px;
+    padding: 30px;
+}
+
+.projects {
+    margin: 30px;
+    padding: 30px;
+    background-color: #889EB5;
+    color: #CCD9F0;
+}
+
+.contact {
+    margin: 30px;
+    padding: 30px;
+    background-color: #BDA993;
+    color: #FFDFC9;
+}
