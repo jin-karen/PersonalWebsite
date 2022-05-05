@@ -86,6 +86,10 @@
     font-family: var(--font-sans);
 }
 
+.projects button:hover{
+    cursor: pointer;
+}
+
 .projects h3 img{
     width: 15px;
 }
