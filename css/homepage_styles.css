@@ -49,6 +49,7 @@
     flex: 1 1 0;
     width: 30%;
     margin: auto auto;  
+    border-radius: 10%;
 }
 
 .about p{
@@ -56,23 +57,26 @@
 }
 
 .projects{
-    display: flex;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 50px;
     margin: 40px 100px;
 }
 
 .projects-item{
-    flex: 1 1 0;
     text-align: center;
 }
 
-.projects-item img{
-    width: 80%;
+.item-img img{
+    width: 400px;
+    border-radius:10%;
 }
 
-.projects-item p{
-    width: 80%;
+.item-text p{
+    width: 82%;
     margin: auto;
+    height: 150px;
 }
 
 .projects button{
@@ -138,4 +142,109 @@
 
 .footer{
     text-align: center;
+}
+
+/* Large devices (1201px to 1500px) */
+@media only screen and (max-width: 1500px) {
+    /* .projects{
+        grid-template-columns: auto auto;
+    } */
+    .projects{
+        column-gap: 30px;
+        margin: 40px 70px;
+    }
+    .item-img img{
+        width: 300px;
+    }
+    .item-text p{
+        width: 90%;
+        height: 185px;
+    }
+}
+
+/* Large devices (993px to 1200px) */
+@media only screen and (max-width: 1200px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .about img{
+        width: 50%;
+    }
+    .projects{
+        grid-template-columns: auto;
+    }
+    .projects-item{
+        display: flex;
+        gap: 10px;
+    }
+    .item-img {
+        flex: 0 1 30%; 
+    }
+    .item-text {
+        flex: 0 1 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .item-text h3 {
+        margin: 10px 0;
+    }
+    .item-text p{
+        width: 95%;
+        height: auto;
+    }
+    .projects button{
+        height: 40px;
+        font-size: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 769px to 992px) */
+@media only screen and (max-width: 992px) {
+    .about img{
+        width: 350px;
+    }
+    .projects{
+        grid-template-columns: auto;
+        margin: 40px 40px;
+    }
+    .item-img {
+        flex: 0 1 36%; 
+    }
+    .item-text {
+        flex: 0 2 64%;
+    }
+    .projects button{
+        height: 35px;
+        font-size: 90%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 577px to 768px) */
+@media only screen and (max-width: 768px) {
+    .projects-item{
+        display: block;
+    }
+    .item-img img{
+        width: 300px;
+    }
+    .item-text p{
+        width: 80%;
+    }
+}
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+    .about img{
+        width: 90%;
+    }
+    .item-img img{
+        width: 70%;
+    }
+    .item-text p{
+        width: 90%;
+    }
 }
